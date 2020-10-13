@@ -1,0 +1,107 @@
+.Topbar{
+    width: 100%;
+}
+
+.NavBar{
+    width: 100%;
+    height: 65px;
+    padding: 1em 4.875em;
+    background-color: #fff;
+    box-shadow: 0 1px 1px #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 90;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.NavLeftContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.LogoLink{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.LogoLink > img{
+    width: 200px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.NavItem{
+    margin: 0 24px;
+    cursor: pointer;
+}
+
+.NavItem > p{
+    color: black;
+    font-size: 16px;
+    font-weight: 50;
+}
+
+.NavRightContent{
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.BellItem > i{
+    font-size: 22px;
+    float: left;
+    color: black;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.Number{
+    background-color: #DC3545;
+    width: 15px;
+    height: 18px;
+    padding: 1px;
+    border-radius: 5px;
+    position: relative;
+    left: 27.5px;
+    top: 7px;
+}
+
+.Badge{
+    position: absolute;
+    right: 4.5px;
+    bottom: 1.5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.LastItem{
+    position: relative;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    cursor: pointer;
+}
+
+.LastItem > p{
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    color:black;
+    font-weight: 500;
+}
