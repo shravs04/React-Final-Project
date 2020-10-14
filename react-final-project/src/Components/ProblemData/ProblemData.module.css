@@ -1,0 +1,91 @@
+.Topic{
+    width: 100%;
+    border: 2px solid #0095FF;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 23px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.TopicMed{
+    width: 100%;
+    border: 2px solid #8455FC;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 23px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.TopicMed:hover{
+    box-shadow: 0 0 10px #8455FC;
+    transform: scale(1.0025);    
+}
+
+.CounterMed{
+    width: 8vw;
+    background-color: #8455FC;
+    padding: 1.1rem;
+    color: white;
+    font-weight: bold;
+    font-style: italic;    
+}
+
+.Topic:hover{
+    box-shadow: 0 0 10px #4798d1;
+    transform: scale(1.0025);
+}
+
+.Counter{
+    width: 8vw;
+    background-color: #0095FF;
+    padding: 1.1rem;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ProblemDetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.ProblemTitle{
+    font-size: 1.08rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+
+.ProblemDifficulty{
+    float: right;
+    font-family: Roboto;
+    right: 0;
+    font-style: italic;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+.Status{
+    padding: 1px 5px;
+    width: auto;
+    border: 2px solid #007bff;
+    color: #007bff;
+}

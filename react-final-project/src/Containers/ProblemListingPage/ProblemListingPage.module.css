@@ -1,0 +1,34 @@
+.ProblemListingWrapp{
+    margin-top: 57px;
+}
+
+.ItalicText{
+    color: #282536;
+    font-size: 16.4px;
+    margin-left: 190px;
+}
+
+.ItalicText > i{
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.Python:hover{
+    color: #2c7ba8;
+}
+
+.Other:hover{
+    color: #2c7ba8;
+}
+
+.Heading{
+    margin-left: 190px;
+}
+
+.ProblemsWrapper{
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 17.5%;
+    padding-left: 14%;
+    box-sizing: border-box;
+}
