@@ -1,8 +1,10 @@
 import React from 'react'
 import classes from "./CourseCard.module.css"
+import { Link } from 'react-router-dom'
 function CourseCard(props) {
     return (
-        <div className={classes.SingleCourse}>
+        <Link to={`/dashboard/${props.Course}`} className={classes.SingleCourse}>
+
             <div className={classes.ImageContainer}>
                 <img className={classes.CourseImage} src={props.ImgSrc} alt="Python" />
 
@@ -12,7 +14,8 @@ function CourseCard(props) {
                 <div className={classes.TotalUnits}>{`${props.Units} Units`}</div>
 
             </div>
-        </div>
+
+        </Link>
     )
 }
 
