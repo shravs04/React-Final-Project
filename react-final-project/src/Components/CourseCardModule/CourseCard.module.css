@@ -1,0 +1,36 @@
+.SingleCourse{
+        background: #FFFFFF;
+    padding: 10px 20px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px #0096ff;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    height: 15vh;
+    
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.CourseImage{
+    width: 65px;
+    height: 65px;
+}
+.CourseDetailsContainer{
+    margin-left: 60px;
+}
+.CourseName{font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 1px;}
+
+.TotalUnits{
+        font-style: italic;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+}

@@ -17,9 +17,9 @@ const TopBar = () => {
                     <Link to="/" className={classes.NavItem}>
                         <p>Practice Arena</p>
                     </Link>
-                    <div className={classes.NavItem}>
+                    <Link to="/classroom" className={classes.NavItem}>
                         <p>Classroom</p>
-                    </div>
+                    </Link>
                     <div className={classes.NavItem}>
                         <p>View Jobs</p>
                     </div>

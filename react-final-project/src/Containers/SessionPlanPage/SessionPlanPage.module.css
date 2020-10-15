@@ -1,0 +1,38 @@
+.BgColor{
+ background-color: #F2F6FF;
+
+}
+
+.ExtraTop{
+    height: 80px;
+}
+
+.ContentWrapper{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.ExtraBot{
+    height: 30px;
+}
+
+
+.PageTitle{
+        font-size: 1.75rem;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 2rem;
+}
+
+p{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 1em;
+}
+
+strong{
+    font-weight: bolder;
+}
