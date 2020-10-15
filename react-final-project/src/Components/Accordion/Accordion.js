@@ -21,15 +21,14 @@ function Accordion(props) {
         {props.heading}
         <img className={[isOpen ? classes.DropIcon : classes.DropRotate]} src={RotatingDropIcon} alt="DropDownIcon" />
       </div>
-      {isOpen &&
-        <div className={classes.AccordionBody}>
-          <Link to="/sessionplan" className={classes.SessionIndicator}>
-            Session Plan
+      {<div className={isOpen ? classes.AccordionOpenBody : classes.AccordionBody}>
+        <Link to="/sessionplan" className={classes.SessionIndicator}>
+          Session Plan
             </Link>
-          <Link to="" className={classes.SessionIndicator}>
-            Session Recording
+        <Link to="" className={classes.SessionIndicator}>
+          Session Recording
             </Link>
-        </div>
+      </div>
       }
 
     </div>
