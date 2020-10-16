@@ -6,7 +6,7 @@ function AssignmentCard(props) {
     return (
         <div className={classes.AssignmentCard}>
             <div className={classes.AssignmentDetails}>
-                <Link to="/problemList">
+                <Link to={`/problemList/${props.course}/${props.topic}`}>
                     <div className={classes.AssignmentName}>
                         <div className={classes.RightSideName}>
                             <span className={classes.NameSum}>{`${props.id}).`}</span>

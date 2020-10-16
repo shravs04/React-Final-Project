@@ -18,7 +18,7 @@ function App() {
         <TopBar />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/dashboard/:subject" component={TopicDetailsPage} />
-        <Route exact path="/problemList" component={ProblemListingPage} />
+        <Route exact path="/problemList/:subject/:topic" component={ProblemListingPage} />
         <Route exact path="/classroom" component={ClassRoomPage} />
         <Route exact path="/progDetail" component={ProgramDetail} />
         <Route exact path="/curriculumpage/:moduleId" component={Curriculum} />
