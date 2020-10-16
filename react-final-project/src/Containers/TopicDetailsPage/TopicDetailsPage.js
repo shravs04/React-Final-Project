@@ -42,7 +42,7 @@ function TopicDetailsPage(props) {
                 </div>
                 <div className={classes.Assignments}>
                     {(blankData.includes(courseId)) ? <h2> No Topics Available</h2> : allCourses.map((current) => {
-                        return <AssignmentCard key={current.id} id={current.id} topic={current.topic} status={current.status} />
+                        return <AssignmentCard key={current.id} id={current.id} topic={current.topic} status={current.status} course={courseId} />
                     })}
 
                 </div>
