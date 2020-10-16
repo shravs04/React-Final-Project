@@ -1,28 +1,16 @@
 import React from 'react';
-import './App.css';
-<<<<<<< HEAD
-import TopBar from './Components/TopBar/TopBar';
+import { Route, BrowserRouter, Link, Redirect } from "react-router-dom";
 import ProblemListingPage from './Containers/ProblemListingPage/ProblemListingPage';
-import Footer from './Components/Footer/Footer';
+import TopBar from "./Components/TopBar/TopBar";
+import Footer from "./Components/Footer/Footer";
+import HomePage from "./Containers/Homepage/Homepage";
+import TopicDetailsPage from "./Containers/TopicDetailsPage/TopicDetailsPage";
+import ClassRoomPage from "./Containers/ClassRoomPage/ClassRoomPage";
+import ProgramDetail from "./Containers/ProgramDetailsPage/ProgramDetailsPage";
+import Curriculum from "./Containers/CurriculumPage/CurriculumPage";
+import SessionPlanPage from "./Containers/SessionPlanPage/SessionPlanPage";
 
-function App() {
-  return (
-    <div className="App">
-        <TopBar/>
-        <ProblemListingPage/>
-        <Footer/>
-    </div>
-=======
-import { Route, BrowserRouter, Link, Redirect } from "react-router-dom"
-import ProblemListingPage from './Containers/ProblemListingPage/ProblemListingPage';
-import TopBar from "./Components/TopBar/TopBar"
-import Footer from "./Components/Footer/Footer"
-import HomePage from "./Containers/Homepage/Homepage"
-import TopicDetailsPage from "./Containers/TopicDetailsPage/TopicDetailsPage"
-import ClassRoomPage from "./Containers/ClassRoomPage/ClassRoomPage"
-import ProgramDetail from "./Containers/ProgramDetailsPage/ProgramDetailsPage"
-import Curriculum from "./Containers/CurriculumPage/CurriculumPage"
-import SessionPlanPage from "./Containers/SessionPlanPage/SessionPlanPage"
+
 function App() {
   return (
     <BrowserRouter>
@@ -39,7 +27,6 @@ function App() {
       </div>
     </BrowserRouter>
 
->>>>>>> 73b0088eeb2410592492fa5b7fe754bd40118668
   );
 }
 
