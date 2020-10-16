@@ -1,0 +1,78 @@
+.BgColor{
+ background-color: #F2F6FF;
+ margin-top: 42px;
+}
+
+.ExtraWidth{
+    height: 60px;
+}
+
+.TopicDetailsContainer{
+   
+        width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 25px #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CourseIcon>img{
+    width: 124px;
+    height: 124px;
+    margin: 24px 24px 24px 0;
+}
+
+.CourseHeader{
+        width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.CourseName{
+    color: #0096ff;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    font-family: Raleway,sans-serif;
+    margin-top: 10px;
+}
+
+.PercentageCompletion{
+        color: rgba(0,0,0,0.7);
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.AvgScore{
+    margin-top: 0;
+    color: rgba(0,0,0,0.4);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+}
+
+.BottomExtra{
+    height: 50px;
+}
+
+.Assignments{
+    margin-top: 40px;
+}
+
+
+

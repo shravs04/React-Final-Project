@@ -1,8 +1,6 @@
 import React from 'react'
 import Axios from "axios"
-import TopBar from "../../Components/TopBar/TopBar"
-import Footer from "../../Components/Footer/Footer"
-import CourseCard from "../../Components/CourseCard/CourseCard"
+import CourseCard from "../../Components/CourseCardModule/CourseCard"
 import classes from "./Homepage.module.css"
 
 function Homepage() {
@@ -10,7 +8,6 @@ function Homepage() {
     React.useEffect(() => {
         async function makePostRequest() {
             const request = await Axios.get("https://5f860417c8a16a0016e6a8d5.mockapi.io/homePage")
-            console.log(request.data);
             setallCourses(request.data); //Get only array
             return request
             //This will never give you the updated state, because setState is async
@@ -21,7 +18,6 @@ function Homepage() {
 
     return (
         <div>
-            <TopBar />
             <div className={classes.BgColor}>
                 <div className={classes.HomepageContainer}>
                     <div className={classes.HeadingContainer}>
@@ -35,7 +31,6 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <Footer />
 
         </div>
     )
