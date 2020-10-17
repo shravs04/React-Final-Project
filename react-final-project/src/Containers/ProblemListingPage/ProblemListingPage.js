@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './ProblemListingPage.module.css';
 import axios from 'axios';
 import ProblemdataComp from '../../Components/ProblemData/ProblemData';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 
 class ProblemListingPage extends React.Component {
@@ -29,7 +29,6 @@ class ProblemListingPage extends React.Component {
         return (
 
             <div className={classes.ProblemListingWrapp}>
-<<<<<<< HEAD
                  <div className={classes.ItalicText}>
                      <i className={classes.Python}>Python</i><span>></span>
                      <i className={classes.Other}>Operators and Conditional Statements</i><span>></span>
@@ -43,8 +42,7 @@ class ProblemListingPage extends React.Component {
                          })
                      }
                  </div>
-=======
-                <div className={classes.ItalicText}>
+                {/* <div className={classes.ItalicText}>
                     <Link to={`dashboard/${this.subject}`} className={classes.Python}>{this.subject}</Link><span>></span>
                     <i className={classes.Other}>{this.topic}</i><span></span>
                 </div>
@@ -56,8 +54,7 @@ class ProblemListingPage extends React.Component {
                             return <ProblemdataComp key={item.id} id={item.id} color={item.color} title={item.title} level={item.level} score={item.score} />
                         })
                     }
-                </div>
->>>>>>> 1758c29933184b7decae12ba3ff70c8dc46a3f76
+                </div> */}
             </div>
         );
     }

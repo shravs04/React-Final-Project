@@ -4,12 +4,12 @@
 }
 
 .ExtraWidth{
-    height: 20px;
+    height: 10px;
 }
 
 
 .BottomExtra{
-    height: 50px;
+    height: 40px;
 }
 
 .ClassRoomContainer{
@@ -24,7 +24,9 @@
     font-size: 40px;
     color: rgba(0,0,0,0.8);
     letter-spacing: 1px;
-margin-bottom: 10px;}
+    margin-bottom: 10px;
+    font-family: Raleway;
+}
 
 
 .EnrolledCourse{

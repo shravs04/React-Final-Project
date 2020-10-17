@@ -4,6 +4,7 @@ import EdyodaLogo from '../../Assets/Edyodalogo.png';
 import { Link } from 'react-router-dom'
 
 const TopBar = () => {
+    const [drop, setDrop] = React.useState(false);
 
     return (
 
@@ -30,10 +31,20 @@ const TopBar = () => {
                         <i class="fa fa-bell-o"></i>
                         <div className={classes.Number}><span className={classes.Badge}>3</span></div>
                     </div>
-                    <div className={classes.LastItem}>
+                    <div onClick={() => setDrop(!drop)} className={classes.LastItem}>
                         <p>Sgajula55</p>
                         <i class="fas fa-caret-down"></i>
                     </div>
+
+                </div>
+                <div className={drop === true ? classes.Dropdown : classes.DropdownNone}>
+                        <p className={classes.Upper}>Profile</p>
+                        <p className={classes.Upper}>Update Job Profile</p>
+                        
+                        <div className={classes.Border}></div>
+                        <p className={classes.Upper}>Log Out</p>
+                        <p className={classes.Upper}>Change Password</p>
+                        
                 </div>
             </nav>
 

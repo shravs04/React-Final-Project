@@ -25,7 +25,7 @@ function Accordion(props) {
         <Link to="/sessionplan" className={classes.SessionIndicator}>
           Session Plan
             </Link>
-        <Link to="" className={classes.SessionIndicator}>
+        <Link to="/recordingpage" className={classes.SessionIndicator}>
           Session Recording
             </Link>
       </div>

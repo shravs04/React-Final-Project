@@ -18,7 +18,7 @@
 .AssignmentName{
     width: 200%;
     height: 50px;
-    color: black;
+    color: #4C4C4C;
         font-size: 22px;
     font-weight: 700;
     font-family: Raleway,sans-serif;
@@ -30,5 +30,5 @@
         width: 435px;
 }
 .PendingState{
-    color: red;
+    color: #CC0000;
 }

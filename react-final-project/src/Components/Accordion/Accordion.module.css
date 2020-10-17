@@ -56,6 +56,9 @@
     font-weight: 400;
     line-height: 1.5;
 }
+.SessionIndicator:hover{
+    color: rgba(31, 31, 170, 0.836);
+}
 .DropIcon{
     position: absolute;
     top: 7px;
